@@ -6,6 +6,7 @@
 
   <!-- <project name="ansible-mapr_nodemanager" path="." revision="tagname" /> -->
   <project name="ansible-mapr_install_playbooks" path="mapr_install_playbooks" revision="master"/>
+  <project name="ansible-mapr_redhat_prereqs" path="mapr_redhat_prereqs" revision="master"/>
   <project name="mapr-ansible-roles" path="mapr-ansible-roles" revision="master"/>
   <project name="mapr-kafka" path="mapr-kafka" revision="master"/>
 </manifest>
