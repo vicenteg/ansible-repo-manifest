@@ -5,7 +5,7 @@
   <default remote="my_github" revision="master" sync-j="4"/>
 
   <!-- <project name="ansible-mapr_nodemanager" path="." revision="tagname" /> -->
-  <project name="ansible-mapr_install_playbooks" path="ansible-mapr_install_playbooks" revision="master"/>
+  <project name="ansible-mapr_install_playbooks" path="mapr_install_playbooks" revision="master"/>
   <project name="mapr-ansible-roles" path="mapr-ansible-roles" revision="master"/>
   <project name="mapr-kafka" path="mapr-kafka" revision="master"/>
 </manifest>
