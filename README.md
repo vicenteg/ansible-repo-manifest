@@ -1,6 +1,6 @@
 
 ```
 repo init -q -u https://github.com/vicenteg/ansible-repo-manifest.git -b master
-repo sync -q
+repo sync -q --no-clone-bundle
 ```
 
