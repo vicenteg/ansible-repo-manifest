@@ -5,5 +5,5 @@
   <default remote="my_github" revision="master" sync-j="4"/>
 
   <!-- <project name="ansible-mapr_nodemanager" path="." revision="tagname" /> -->
-  <project name="mapr-ansible-roles" path="."/>
+  <project name="mapr-ansible-roles" path="mapr-ansible-roles"/>
 </manifest>
