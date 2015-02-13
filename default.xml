@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="my_github" fetch="https://github.com/vicenteg"/>
+  <default remote="my_github" revision="master" sync-j="4"/>
+
+  <!-- <project name="ansible-mapr_nodemanager" path="." revision="tagname" /> -->
+  <project name="mapr-ansible-roles" path="."/>
+</manifest>
