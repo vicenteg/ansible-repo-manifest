@@ -12,6 +12,7 @@
   <project name="ansible-python_lxml" path="playbooks/roles/python_lxml" revision="master"/>
   <project name="ansible-mapr_zookeeper" path="playbooks/roles/mapr_zookeeper" revision="master"/>
   <project name="ansible-mapr_cldb" path="playbooks/roles/mapr_cldb" revision="master"/>
-  <project name="mapr-kafka" path="playbooks/roles/mapr-kafka" revision="master"/>
+  <project name="ansible-mapr_cldb" path="playbooks/roles/mapr_resourcemanager" revision="master"/>
+  <project name="mapr-kafka" path="playbooks/roles/mapr_kafka" revision="master"/>
 </manifest>
 
