@@ -17,5 +17,6 @@
   <project name="ansible-mapr_historyserver" path="playbooks/roles/mapr_historyserver" revision="master"/>
   <project name="ansible-mapr_jobtracker" path="playbooks/roles/mapr_jobtracker" revision="master"/>
   <project name="ansible-mapr_tasktracker" path="playbooks/roles/mapr_tasktracker" revision="master"/>
+  <project name="ansible-mapr_webserver" path="playbooks/roles/mapr_webserver" revision="master"/>
   <project name="mapr-kafka" path="playbooks/roles/mapr_kafka" revision="master"/>
 </manifest>
