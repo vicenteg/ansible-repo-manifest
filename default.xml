@@ -19,5 +19,6 @@
   <project name="ansible-mapr_tasktracker" path="playbooks/roles/mapr_tasktracker" revision="master"/>
   <project name="ansible-mapr_webserver" path="playbooks/roles/mapr_webserver" revision="master"/>
   <project name="ansible-mapr_nfs" path="playbooks/roles/mapr_nfs" revision="master"/>
+  <project name="ansible-mapr_configuration" path="playbooks/roles/mapr_configuration" revision="master"/>
   <project name="mapr-kafka" path="playbooks/roles/mapr_kafka" revision="master"/>
 </manifest>
