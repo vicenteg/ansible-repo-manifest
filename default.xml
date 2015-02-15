@@ -10,6 +10,7 @@
   <project name="ansible-mapr_aws_bootstrap" path="playbooks/roles/mapr_aws_bootstrap" revision="master"/>
   <project name="ansible-mapr_redhat_prereqs" path="playbooks/roles/mapr_redhat_prereqs" revision="master"/>
   <project name="ansible-python_lxml" path="playbooks/roles/python_lxml" revision="master"/>
+  <project name="ansible-mapr_zookeeper" path="playbooks/roles/mapr_zookeeper" revision="master"/>
   <project name="mapr-kafka" path="playbooks/roles/mapr-kafka" revision="master"/>
 </manifest>
 
