@@ -13,6 +13,7 @@
   <project name="ansible-mapr_zookeeper" path="playbooks/roles/mapr_zookeeper" revision="master"/>
   <project name="ansible-mapr_zookeeper_startup" path="playbooks/roles/mapr_zookeeper_startup" revision="master"/>
   <project name="ansible-mapr_cldb" path="playbooks/roles/mapr_cldb" revision="master"/>
+  <project name="ansible-mapr_cldb_startup" path="playbooks/roles/mapr_cldb_startup" revision="master"/>
   <project name="ansible-mapr_resourcemanager" path="playbooks/roles/mapr_resourcemanager" revision="master"/>
   <project name="ansible-mapr_nodemanager" path="playbooks/roles/mapr_nodemanager" revision="master"/>
   <project name="ansible-mapr_historyserver" path="playbooks/roles/mapr_historyserver" revision="master"/>
