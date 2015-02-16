@@ -21,6 +21,7 @@
   <project name="ansible-mapr_nfs" path="playbooks/roles/mapr_nfs" revision="master"/>
   <project name="ansible-mapr_client" path="playbooks/roles/mapr_client" revision="master"/>
   <project name="ansible-mapr_configuration" path="playbooks/roles/mapr_configuration" revision="master"/>
-  <project name="ansible-library" path="playbooks/library" revision="master"/>  
+  <project name="ansible-mapr_fileserver" path="playbooks/roles/mapr_fileserver" revision="master"/>
+  <project name="ansible-library" path="playbooks/library" revision="master"/>
   <project name="mapr-kafka" path="playbooks/roles/mapr_kafka" revision="master"/>
 </manifest>
