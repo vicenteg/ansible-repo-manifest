@@ -6,27 +6,27 @@
 
   <!-- <project name="ansible-mapr_nodemanager" path="." revision="tagname" /> -->
   <!-- <project name="mapr-ansible-roles" path="playbooks/roles/mapr-ansible-roles" revision="master"/> -->
-  <project name="ansible-mapr_install_playbooks" path="playbooks" revision="master"/>
-  <project name="ansible-mapr_aws_bootstrap" path="playbooks/roles/mapr_aws_bootstrap" revision="master"/>
-  <project name="ansible-mapr_redhat_prereqs" path="playbooks/roles/mapr_redhat_prereqs" revision="master"/>
-  <project name="ansible-python_lxml" path="playbooks/roles/python_lxml" revision="master"/>
-  <project name="ansible-mapr_zookeeper" path="playbooks/roles/mapr_zookeeper" revision="master"/>
-  <project name="ansible-mapr_zookeeper_startup" path="playbooks/roles/mapr_zookeeper_startup" revision="master"/>
-  <project name="ansible-mapr_cldb" path="playbooks/roles/mapr_cldb" revision="master"/>
-  <project name="ansible-mapr_cldb_startup" path="playbooks/roles/mapr_cldb_startup" revision="master"/>
-  <project name="ansible-mapr_cluster_startup" path="playbooks/roles/mapr_cluster_startup" revision="master"/>
-  <project name="ansible-mapr_resourcemanager" path="playbooks/roles/mapr_resourcemanager" revision="master"/>
-  <project name="ansible-mapr_nodemanager" path="playbooks/roles/mapr_nodemanager" revision="master"/>
-  <project name="ansible-mapr_historyserver" path="playbooks/roles/mapr_historyserver" revision="master"/>
-  <project name="ansible-mapr_jobtracker" path="playbooks/roles/mapr_jobtracker" revision="master"/>
-  <project name="ansible-mapr_tasktracker" path="playbooks/roles/mapr_tasktracker" revision="master"/>
-  <project name="ansible-mapr_webserver" path="playbooks/roles/mapr_webserver" revision="master"/>
-  <project name="ansible-mapr_nfs" path="playbooks/roles/mapr_nfs" revision="master"/>
-  <project name="ansible-mapr_client" path="playbooks/roles/mapr_client" revision="master"/>
-  <project name="ansible-mapr_configuration" path="playbooks/roles/mapr_configuration" revision="master"/>
-  <project name="ansible-mapr_drill" path="playbooks/roles/mapr_drill" revision="master"/>
-  <project name="ansible-mapr_fileserver" path="playbooks/roles/mapr_fileserver" revision="master"/>
-  <project name="ansible-library" path="playbooks/library" revision="master"/>
-  <project name="mapr-kafka" path="playbooks/roles/mapr_kafka" revision="master"/>
-  <project name="ansible-mysql_server" path="playbooks/roles/mysql_server" revision="master"/>
+  <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
+  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="master"/>
+  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="master"/>
+  <project name="ansible-python_lxml" path="roles/python_lxml" revision="master"/>
+  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="master"/>
+  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup" revision="master"/>
+  <project name="ansible-mapr_cldb" path="roles/mapr_cldb" revision="master"/>
+  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup" revision="master"/>
+  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup" revision="master"/>
+  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager" revision="master"/>
+  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager" revision="master"/>
+  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver" revision="master"/>
+  <project name="ansible-mapr_jobtracker" path="roles/mapr_jobtracker" revision="master"/>
+  <project name="ansible-mapr_tasktracker" path="roles/mapr_tasktracker" revision="master"/>
+  <project name="ansible-mapr_webserver" path="roles/mapr_webserver" revision="master"/>
+  <project name="ansible-mapr_nfs" path="roles/mapr_nfs" revision="master"/>
+  <project name="ansible-mapr_client" path="roles/mapr_client" revision="master"/>
+  <project name="ansible-mapr_configuration" path="roles/mapr_configuration" revision="master"/>
+  <project name="ansible-mapr_drill" path="roles/mapr_drill" revision="master"/>
+  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="master"/>
+  <project name="ansible-library" path="library" revision="master"/>
+  <project name="mapr-kafka" path="roles/mapr_kafka" revision="master"/>
+  <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
 </manifest>
