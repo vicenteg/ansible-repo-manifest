@@ -29,4 +29,6 @@
   <project name="ansible-library" path="library" revision="master"/>
   <project name="mapr-kafka" path="roles/mapr_kafka" revision="master"/>
   <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
+  <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
+  <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="master"/>
 </manifest>
