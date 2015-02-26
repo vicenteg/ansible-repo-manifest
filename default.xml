@@ -8,6 +8,8 @@
   <!-- <project name="mapr-ansible-roles" path="playbooks/roles/mapr-ansible-roles" revision="master"/> -->
   <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
   <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="master"/>
+  <project name="ansible-mapr_license" path="roles/mapr_license" revision="master"/>
+  <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="master"/>
   <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="master"/>
   <project name="ansible-python_lxml" path="roles/python_lxml" revision="master"/>
   <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="master"/>
