@@ -24,6 +24,7 @@
   <project name="ansible-mapr_tasktracker" path="roles/mapr_tasktracker" revision="master"/>
   <project name="ansible-mapr_webserver" path="roles/mapr_webserver" revision="master"/>
   <project name="ansible-mapr_nfs" path="roles/mapr_nfs" revision="master"/>
+  <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="master"/>
   <project name="ansible-mapr_client" path="roles/mapr_client" revision="master"/>
   <project name="ansible-mapr_configuration" path="roles/mapr_configuration" revision="master"/>
   <project name="ansible-mapr_drill" path="roles/mapr_drill" revision="master"/>
