@@ -36,4 +36,5 @@
   <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
   <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="master"/>
   <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb" revision="master"/>
+  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="master"/>
 </manifest>
