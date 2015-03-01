@@ -31,6 +31,7 @@
   <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="master"/>
   <project name="ansible-library" path="library" revision="master"/>
   <project name="mapr-kafka" path="roles/mapr_kafka" revision="master"/>
+  <project name="ansible-mapr_solr" path="roles/solr" revision="master"/>
   <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
   <project name="ansible-scala" path="roles/scala" revision="master"/>
   <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
