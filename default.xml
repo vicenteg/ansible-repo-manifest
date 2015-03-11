@@ -38,6 +38,7 @@
   <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
   <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="master"/>
   <project name="ansible-mapr_metrics" path="roles/mapr_metrics" revision="master"/>
+  <project name="ansible-mapr_metrics_database" path="roles/mapr_metrics_database" revision="master"/>
   <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb" revision="master"/>
   <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="master"/>
   <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="master"/>
