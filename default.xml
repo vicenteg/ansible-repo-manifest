@@ -35,6 +35,8 @@
   <project name="ansible-mapr_solr" path="roles/solr" revision="master"/>
   <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
   <project name="ansible-scala" path="roles/scala" revision="master"/>
+  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="master"/>
+  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="master"/>
   <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
   <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="master"/>
   <project name="ansible-mapr_metrics" path="roles/mapr_metrics" revision="master"/>
