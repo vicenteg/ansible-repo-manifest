@@ -6,6 +6,7 @@
 
   <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
+  <project name="ansible-mapr_python" path="roles/mapr_python" revision="master"/>
   <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="master"/>
   <project name="ansible-mapr_license" path="roles/mapr_license" revision="master"/>
   <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="master"/>
