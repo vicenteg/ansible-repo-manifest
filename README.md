@@ -3,6 +3,7 @@ Please install the repo script: http://source.android.com/source/downloading.htm
 Essentially:
 
 ```
+mkdir ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
