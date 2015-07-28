@@ -7,6 +7,7 @@
 
   <project name="ansible-mapr_install_playbooks" path="." revision="split"/>
   <project name="ansible-ntp" remote="picotrading" path="roles/ntp" revision="master"/>
+  <project name="config-encoder-macros" remote="picotrading" path="templates/encoder" revision="master"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
   <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="master"/>
   <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin" revision="master"/>
