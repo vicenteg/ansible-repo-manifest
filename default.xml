@@ -2,9 +2,11 @@
 
 <manifest>
   <remote name="origin" fetch="https://github.com/vicenteg"/>
+  <remote name="picotrading" fetch="https://github.com/picotrading"/>
   <default remote="origin" revision="master" sync-j="4"/>
 
   <project name="ansible-mapr_install_playbooks" path="." revision="split"/>
+  <project name="ansible-ntp" remote="picotrading" path="roles/ntp" revision="master"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
   <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="master"/>
   <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin" revision="master"/>
