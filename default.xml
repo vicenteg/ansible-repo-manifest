@@ -5,50 +5,50 @@
   <remote name="picotrading" fetch="https://github.com/picotrading"/>
   <default remote="origin" revision="master" sync-j="4"/>
 
-  <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
-  <project name="ansible-ntp" remote="picotrading" path="roles/ntp" revision="master"/>
-  <project name="config-encoder-macros" remote="picotrading" path="templates/encoder" revision="master"/>
-  <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
-  <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="master"/>
-  <project name="ansible-mapr_maprlogin_service" path="roles/mapr_maprlogin_service" revision="master"/>
-  <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin" revision="master"/>
-  <project name="ansible-mapr_python" path="roles/mapr_python" revision="master"/>
-  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="master"/>
-  <project name="ansible-mapr_license" path="roles/mapr_license" revision="master"/>
-  <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="master"/>
-  <project name="ansible-user_account" path="roles/user_account" revision="master"/>
-  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="master"/>
-  <project name="ansible-python_lxml" path="roles/python_lxml" revision="master"/>
-  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="master"/>
-  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup" revision="master"/>
-  <project name="ansible-mapr_cldb" path="roles/mapr_cldb" revision="master"/>
-  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup" revision="master"/>
-  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup" revision="master"/>
-  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager" revision="master"/>
-  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager" revision="master"/>
-  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver" revision="master"/>
-  <project name="ansible-mapr_jobtracker" path="roles/mapr_jobtracker" revision="master"/>
-  <project name="ansible-mapr_tasktracker" path="roles/mapr_tasktracker" revision="master"/>
-  <project name="ansible-mapr_webserver" path="roles/mapr_webserver" revision="master"/>
-  <project name="ansible-mapr_nfs" path="roles/mapr_nfs" revision="master"/>
-  <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="master"/>
-  <project name="ansible-mapr_client" path="roles/mapr_client" revision="master"/>
-  <project name="ansible-mapr_configuration" path="roles/mapr_configuration" revision="master"/>
-  <project name="ansible-mapr_drill" path="roles/mapr_drill" revision="master"/>
-  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="master"/>
-  <project name="ansible-library" path="library" revision="master"/>
-  <project name="mapr-kafka" path="roles/mapr_kafka" revision="master"/>
-  <project name="ansible-mapr_solr" path="roles/solr" revision="master"/>
-  <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
-  <project name="ansible-scala" path="roles/scala" revision="master"/>
-  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="master"/>
-  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="master"/>
-  <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="master"/>
-  <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="master"/>
-  <project name="ansible-mapr_metrics" path="roles/mapr_metrics" revision="master"/>
-  <project name="ansible-mapr_metrics_database" path="roles/mapr_metrics_database" revision="master"/>
-  <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb" revision="master"/>
-  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="master"/>
-  <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test" revision="master"/>
-  <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="master"/>
+  <project name="ansible-mapr_install_playbooks.git" path="." revision="master"/>
+  <project name="ansible-ntp.git" remote="picotrading" path="roles/ntp" revision="master"/>
+  <project name="config-encoder-macros.git" remote="picotrading" path="templates/encoder" revision="master"/>
+  <project name="ansible-mapr_external_packages.git" path="roles/mapr_external_packages" revision="master"/>
+  <project name="ansible-mapr_authtest.git" path="roles/mapr_authtest" revision="master"/>
+  <project name="ansible-mapr_maprlogin_service.git" path="roles/mapr_maprlogin_service" revision="master"/>
+  <project name="ansible-mapr_maprlogin.git" path="roles/mapr_maprlogin" revision="master"/>
+  <project name="ansible-mapr_python.git" path="roles/mapr_python" revision="master"/>
+  <project name="ansible-mapr_aws_bootstrap.git" path="roles/mapr_aws_bootstrap" revision="master"/>
+  <project name="ansible-mapr_license.git" path="roles/mapr_license" revision="master"/>
+  <project name="ansible-mapr_accounts.git" path="roles/mapr_accounts" revision="master"/>
+  <project name="ansible-user_account.git" path="roles/user_account" revision="master"/>
+  <project name="ansible-mapr_redhat_prereqs.git" path="roles/mapr_redhat_prereqs" revision="master"/>
+  <project name="ansible-python_lxml.git" path="roles/python_lxml" revision="master"/>
+  <project name="ansible-mapr_zookeeper.git" path="roles/mapr_zookeeper" revision="master"/>
+  <project name="ansible-mapr_zookeeper_startup.git" path="roles/mapr_zookeeper_startup" revision="master"/>
+  <project name="ansible-mapr_cldb.git" path="roles/mapr_cldb" revision="master"/>
+  <project name="ansible-mapr_cldb_startup.git" path="roles/mapr_cldb_startup" revision="master"/>
+  <project name="ansible-mapr_cluster_startup.git" path="roles/mapr_cluster_startup" revision="master"/>
+  <project name="ansible-mapr_resourcemanager.git" path="roles/mapr_resourcemanager" revision="master"/>
+  <project name="ansible-mapr_nodemanager.git" path="roles/mapr_nodemanager" revision="master"/>
+  <project name="ansible-mapr_historyserver.git" path="roles/mapr_historyserver" revision="master"/>
+  <project name="ansible-mapr_jobtracker.git" path="roles/mapr_jobtracker" revision="master"/>
+  <project name="ansible-mapr_tasktracker.git" path="roles/mapr_tasktracker" revision="master"/>
+  <project name="ansible-mapr_webserver.git" path="roles/mapr_webserver" revision="master"/>
+  <project name="ansible-mapr_nfs.git" path="roles/mapr_nfs" revision="master"/>
+  <project name="ansible-mapr_hive.git" path="roles/mapr_hive" revision="master"/>
+  <project name="ansible-mapr_client.git" path="roles/mapr_client" revision="master"/>
+  <project name="ansible-mapr_configuration.git" path="roles/mapr_configuration" revision="master"/>
+  <project name="ansible-mapr_drill.git" path="roles/mapr_drill" revision="master"/>
+  <project name="ansible-mapr_fileserver.git" path="roles/mapr_fileserver" revision="master"/>
+  <project name="ansible-library.git" path="library" revision="master"/>
+  <project name="mapr-kafka.git" path="roles/mapr_kafka" revision="master"/>
+  <project name="ansible-mapr_solr.git" path="roles/solr" revision="master"/>
+  <project name="ansible-mysql_server.git" path="roles/mysql_server" revision="master"/>
+  <project name="ansible-scala.git" path="roles/scala" revision="master"/>
+  <project name="ansible-mapr_hbasemaster.git" path="roles/mapr_hbasemaster" revision="master"/>
+  <project name="ansible-mapr_hbaseregionserver.git" path="roles/mapr_hbaseregionserver" revision="master"/>
+  <project name="ansible-mapr_spark_master.git" path="roles/mapr_spark_master" revision="master"/>
+  <project name="ansible-mapr_spark_slave.git" path="roles/mapr_spark_slave" revision="master"/>
+  <project name="ansible-mapr_metrics.git" path="roles/mapr_metrics" revision="master"/>
+  <project name="ansible-mapr_metrics_database.git" path="roles/mapr_metrics_database" revision="master"/>
+  <project name="ansible-mapr_opentsdb.git" path="roles/mapr_opentsdb" revision="master"/>
+  <project name="ansible-mapr_tcollector.git" path="roles/mapr_tcollector" revision="master"/>
+  <project name="ansible-mapr_pre_install_test.git" path="roles/mapr_pre_install_test" revision="master"/>
+  <project name="ansible-mapr_post_install_test.git" path="roles/mapr_post_install_test" revision="master"/>
 </manifest>
