@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com:vicenteg"/>
+  <remote name="origin" fetch="git://github.com/vicenteg"/>
   <remote name="picotrading" fetch="https://github.com/picotrading"/>
   <default remote="origin" revision="master" sync-j="4"/>
 
   <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
-  <project name="ansible-ntp" remote="picotrading" path="roles/ntp" revision="master"/>
+  <project name="ansible-ntp" path="roles/ntp" revision="master"/>
   <project name="config-encoder-macros" remote="picotrading" path="templates/encoder" revision="master"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
   <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="master"/>
