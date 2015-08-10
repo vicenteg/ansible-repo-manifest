@@ -52,4 +52,7 @@
   <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test" revision="master"/>
   <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="master"/>
   <project name="mapr-hue" path="roles/mapr_hue" revision="master"/>
+  <project name="ansible-mapr_oozie" path="roles/mapr_oozie" revision="master"/>
+  <project name="ansible-mapr_pig" path="roles/mapr_pig" revision="master"/>
+  <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs" revision="master"/>
 </manifest>
