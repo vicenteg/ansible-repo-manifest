@@ -51,4 +51,5 @@
   <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="master"/>
   <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test" revision="master"/>
   <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="master"/>
+  <project name="mapr_hue" path="roles/mapr_hue" revision="master"/>
 </manifest>
