@@ -17,6 +17,7 @@
   <project name="ansible-mapr_license" path="roles/mapr_license" revision="master"/>
   <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="master"/>
   <project name="ansible-user_account" path="roles/user_account" revision="master"/>
+  <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs" revision="master"/>
   <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="master"/>
   <project name="ansible-python_lxml" path="roles/python_lxml" revision="master"/>
   <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="master"/>
