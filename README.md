@@ -20,7 +20,7 @@ chmod a+x ~/bin/repo
 Then get the repos:
 
 ```
-mkdir -p env/master && cd env/master
-~/bin/repo init -q -u https://github.com/vicenteg/ansible-repo-manifest.git -b master
+mkdir -p env/mapr-hue && cd env/mapr-hue
+~/bin/repo init -q -u https://github.com/vicenteg/ansible-repo-manifest.git -b hue
 ~/bin/repo sync -q --no-clone-bundle
 ```
