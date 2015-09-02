@@ -47,6 +47,7 @@
   <project name="ansible-mapr_solr" path="roles/mapr_solr" revision="master"/>
   <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="master"/>
   <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="master"/>
+  <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer" revision="master"/>
   <project name="ansible-mapr_oozie" path="roles/mapr_oozie" revision="master"/>
   <project name="ansible-mapr_pig" path="roles/mapr_pig" revision="master"/>
   <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs" revision="master"/>
