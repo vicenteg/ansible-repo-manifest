@@ -20,7 +20,7 @@ chmod a+x ~/bin/repo
 Then get the repos:
 
 ```
-mkdir -p env/mapr-hbindexer && cd env/mapr-hbindexer
-~/bin/repo init -q -u https://github.com/vicenteg/ansible-repo-manifest.git -b hbindexer
+mkdir -p env/mapr-install && cd env/mapr-install
+~/bin/repo init -q -u https://github.com/vicenteg/ansible-repo-manifest.git -b master
 ~/bin/repo sync -q --no-clone-bundle
 ```
