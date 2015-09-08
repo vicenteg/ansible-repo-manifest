@@ -5,7 +5,7 @@
   <remote name="picotrading" fetch="https://github.com/picotrading"/>
   <default remote="origin" revision="master" sync-j="4"/>
 
-  <project name="ansible-mapr_install_playbooks" path="." revision="hue-hive-drill-secure"/>
+  <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
   <project name="ansible-ntp" path="roles/ntp" revision="master"/>
   <project name="config-encoder-macros" remote="picotrading" path="templates/encoder" revision="master"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
