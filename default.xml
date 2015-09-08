@@ -43,7 +43,7 @@
 
   <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="master"/>
   <project name="ansible-mapr_hive_test" path="roles/mapr_hive_test" revision="master"/>
-  <project name="mapr-hue" path="roles/mapr_hue" revision="v3.8.1-with-security"/>
+  <project name="mapr-hue" path="roles/mapr_hue" revision="master"/>
   <project name="ansible-mapr_solr" path="roles/mapr_solr" revision="master"/>
   <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="master"/>
   <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="master"/>
