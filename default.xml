@@ -1,54 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com/vicenteg"/>
-  <remote name="picotrading" fetch="https://github.com/picotrading"/>
+  <remote fetch="ssh://git@github.com/vicenteg" name="origin"/>
+  <remote fetch="https://github.com/picotrading" name="picotrading"/>
+  
   <default remote="origin" revision="master" sync-j="4"/>
-
-  <project name="ansible-mapr_install_playbooks" path="." revision="master"/>
-  <project name="ansible-ntp" path="roles/ntp" revision="master"/>
-  <project name="config-encoder-macros" remote="picotrading" path="templates/encoder" revision="master"/>
-  <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="master"/>
-  <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="master"/>
-  <project name="ansible-mapr_maprlogin_service" path="roles/mapr_maprlogin_service" revision="master"/>
-  <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin" revision="master"/>
-  <project name="ansible-mapr_python" path="roles/mapr_python" revision="master"/>
-  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="master"/>
-  <project name="ansible-mapr_license" path="roles/mapr_license" revision="master"/>
-  <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="master"/>
-  <project name="ansible-user_account" path="roles/user_account" revision="master"/>
-  <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs" revision="master"/>
-  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="master"/>
-  <project name="ansible-python_lxml" path="roles/python_lxml" revision="master"/>
-  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="master"/>
-  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup" revision="master"/>
-  <project name="ansible-mapr_cldb" path="roles/mapr_cldb" revision="master"/>
-  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup" revision="master"/>
-  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup" revision="master"/>
-  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager" revision="master"/>
-  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager" revision="master"/>
-  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver" revision="master"/>
-  <project name="ansible-mapr_webserver" path="roles/mapr_webserver" revision="master"/>
-  <project name="ansible-mapr_nfs" path="roles/mapr_nfs" revision="master"/>
-  <project name="ansible-mapr_client" path="roles/mapr_client" revision="master"/>
-  <project name="ansible-mapr_configuration" path="roles/mapr_configuration" revision="master"/>
-  <project name="ansible-mapr_drill" path="roles/mapr_drill" revision="master"/>
-  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="master"/>
-  <project name="ansible-library" path="library" revision="master"/>
-  <project name="ansible-mysql_server" path="roles/mysql_server" revision="master"/>
-  <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb" revision="master"/>
-  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="master"/>
-  <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test" revision="master"/>
-  <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="master"/>
-
-  <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="master"/>
-  <project name="ansible-mapr_hive_test" path="roles/mapr_hive_test" revision="master"/>
-  <project name="mapr-hue" path="roles/mapr_hue" revision="master"/>
-  <project name="ansible-mapr_solr" path="roles/mapr_solr" revision="master"/>
-  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="master"/>
-  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="master"/>
-  <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer" revision="master"/>
-  <project name="ansible-mapr_oozie" path="roles/mapr_oozie" revision="master"/>
-  <project name="ansible-mapr_pig" path="roles/mapr_pig" revision="master"/>
-  <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs" revision="master"/>
+  
+  <project name="ansible-library" path="library"/>
+  <project name="ansible-mapr_accounts" path="roles/mapr_accounts"/>
+  <project name="ansible-mapr_authtest" path="roles/mapr_authtest"/>
+  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap"/>
+  <project name="ansible-mapr_cldb" path="roles/mapr_cldb"/>
+  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup"/>
+  <project name="ansible-mapr_client" path="roles/mapr_client"/>
+  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup"/>
+  <project name="ansible-mapr_configuration" path="roles/mapr_configuration"/>
+  <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs"/>
+  <project name="ansible-mapr_drill" path="roles/mapr_drill"/>
+  <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages"/>
+  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver"/>
+  <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer"/>
+  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster"/>
+  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver"/>
+  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver"/>
+  <project name="ansible-mapr_hive" path="roles/mapr_hive"/>
+  <project name="ansible-mapr_hive_test" path="roles/mapr_hive_test"/>
+  <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs"/>
+  <project name="ansible-mapr_install_playbooks" path="."/>
+  <project name="ansible-mapr_license" path="roles/mapr_license"/>
+  <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin"/>
+  <project name="ansible-mapr_maprlogin_service" path="roles/mapr_maprlogin_service"/>
+  <project name="ansible-mapr_nfs" path="roles/mapr_nfs"/>
+  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager"/>
+  <project name="ansible-mapr_oozie" path="roles/mapr_oozie"/>
+  <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb"/>
+  <project name="ansible-mapr_pig" path="roles/mapr_pig"/>
+  <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test"/>
+  <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test"/>
+  <project name="ansible-mapr_python" path="roles/mapr_python"/>
+  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs"/>
+  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager"/>
+  <project name="ansible-mapr_solr" path="roles/mapr_solr"/>
+  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector"/>
+  <project name="ansible-mapr_webserver" path="roles/mapr_webserver"/>
+  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper"/>
+  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup"/>
+  <project name="ansible-mysql_server" path="roles/mysql_server"/>
+  <project name="ansible-ntp" path="roles/ntp"/>
+  <project name="ansible-python_lxml" path="roles/python_lxml"/>
+  <project name="ansible-user_account" path="roles/user_account"/>
+  <project name="config-encoder-macros" path="templates/encoder" remote="picotrading"/>
+  <project name="mapr-hue" path="roles/mapr_hue"/>
 </manifest>
