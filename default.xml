@@ -17,6 +17,7 @@
   <project name="ansible-mapr_configuration" path="roles/mapr_configuration"/>
   <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs"/>
   <project name="ansible-mapr_drill" path="roles/mapr_drill"/>
+  <project name="ansible-mapr_drill_test" path="roles/mapr_drill_test"/>
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages"/>
   <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver"/>
   <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer"/>
