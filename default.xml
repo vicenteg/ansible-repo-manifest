@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@github.com/vicenteg" name="origin"/>
+  <remote fetch="ssh://git@github.com/vicenteg" name="dev-origin"/>
+  <remote fetch="https://github.com/vicenteg" name="origin"/>
   <remote fetch="https://github.com/picotrading" name="picotrading"/>
   
-  <default remote="origin" revision="master" sync-j="4"/>
+  <default remote="dev-origin" revision="master" sync-j="4"/>
   
   <project name="ansible-library" path="library"/>
   <project name="ansible-mapr_accounts" path="roles/mapr_accounts"/>
