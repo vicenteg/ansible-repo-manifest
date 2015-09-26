@@ -21,7 +21,7 @@
   <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="1d7814464e278902099a0a34a137c7faf52d5128" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="5d73f235522b50c2d6a5c6d6846ecb39fb3aeed9" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer" revision="1a4ef58d3c05a3400f1fb549716be3e845e177dd" upstream="v5.0.0-d2.xlarge"/>
-  <project name="ansible-mapr_hbasev5.0.0-d2.xlarge" path="roles/mapr_hbasev5.0.0-d2.xlarge" revision="f8d19777f34a32b4fecd8ac7d78dc44acac1dcfe" upstream="v5.0.0-d2.xlarge"/>
+  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="f8d19777f34a32b4fecd8ac7d78dc44acac1dcfe" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="3f71b20c231beb05284d01133e1f41e13f3a0602" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver" revision="6e330326981bf7d2fd79959e795fefa3429f71d4" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="f8d016ef216cb1e0ba80aeac95055ea7fe4c415c" upstream="v5.0.0-d2.xlarge"/>
