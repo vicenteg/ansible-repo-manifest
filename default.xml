@@ -50,6 +50,6 @@
   <project name="ansible-ntp" path="roles/ntp" revision="0c0a4f8ecb419e5ec72fd654ed343bbfcc47e71e" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-python_lxml" path="roles/python_lxml" revision="76c6b2d96a2b05da99d10a4b6a651981270afae0" upstream="v5.0.0-d2.xlarge"/>
   <project name="ansible-user_account" path="roles/user_account" revision="94e4d3115ff5d26f13d1730f72f8c520736fe32d" upstream="v5.0.0-d2.xlarge"/>
-  <project name="config-encoder-macros" path="templates/encoder" remote="picotrading" revision="624ed05b65743a82bcfdef525176e6cfef5c71ee" upstream="v5.0.0-d2.xlarge"/>
+  <project name="config-encoder-macros" path="templates/encoder" remote="picotrading" revision="624ed05b65743a82bcfdef525176e6cfef5c71ee" upstream="master"/>
   <project name="mapr-hue" path="roles/mapr_hue" revision="bb0539d9b8c9c06d4dd1df5486aa03c5dbfd63dc" upstream="v5.0.0-d2.xlarge"/>
 </manifest>
