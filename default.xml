@@ -6,52 +6,52 @@
   
   <default remote="origin" revision="master" sync-j="4"/>
   
-  <project name="ansible-library" path="library"/>
-  <project name="ansible-mapr_accounts" path="roles/mapr_accounts"/>
-  <project name="ansible-mapr_authtest" path="roles/mapr_authtest"/>
-  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap"/>
-  <project name="ansible-mapr_cldb" path="roles/mapr_cldb"/>
-  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup"/>
-  <project name="ansible-mapr_client" path="roles/mapr_client"/>
-  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup"/>
-  <project name="ansible-mapr_configuration" path="roles/mapr_configuration"/>
-  <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs"/>
-  <project name="ansible-mapr_drill" path="roles/mapr_drill"/>
-  <project name="ansible-mapr_drill_test" path="roles/mapr_drill_test"/>
-  <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages"/>
-  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver"/>
-  <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer"/>
-  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster"/>
-  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver"/>
-  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver"/>
-  <project name="ansible-mapr_hive" path="roles/mapr_hive"/>
-  <project name="ansible-mapr_hive_test" path="roles/mapr_hive_test"/>
-  <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs"/>
-  <project name="ansible-mapr_install_playbooks" path="."/>
-  <project name="ansible-mapr_license" path="roles/mapr_license"/>
-  <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin"/>
-  <project name="ansible-mapr_maprlogin_service" path="roles/mapr_maprlogin_service"/>
-  <project name="ansible-mapr_nfs" path="roles/mapr_nfs"/>
-  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager"/>
-  <project name="ansible-mapr_oozie" path="roles/mapr_oozie"/>
-  <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb"/>
-  <project name="ansible-mapr_pig" path="roles/mapr_pig"/>
-  <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test"/>
-  <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test"/>
-  <project name="ansible-mapr_python" path="roles/mapr_python"/>
-  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs"/>
-  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager"/>
-  <project name="ansible-mapr_solr" path="roles/mapr_solr"/>
-  <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master"/>
-  <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave"/>
-  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector"/>
-  <project name="ansible-mapr_webserver" path="roles/mapr_webserver"/>
-  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper"/>
-  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup"/>
-  <project name="ansible-mysql_server" path="roles/mysql_server"/>
-  <project name="ansible-ntp" path="roles/ntp"/>
-  <project name="ansible-python_lxml" path="roles/python_lxml"/>
-  <project name="ansible-user_account" path="roles/user_account"/>
-  <project name="config-encoder-macros" path="templates/encoder" remote="picotrading"/>
-  <project name="mapr-hue" path="roles/mapr_hue"/>
+  <project name="ansible-library" path="library" revision="15ca1ed7e4bf1d3268052e6227662fc13ad23fd8" upstream="master"/>
+  <project name="ansible-mapr_accounts" path="roles/mapr_accounts" revision="0b479ce5c1b04eda67e9097e2e523b6e8b3c23af" upstream="master"/>
+  <project name="ansible-mapr_authtest" path="roles/mapr_authtest" revision="ede6113e5283b09056747768621e2e12c8928789" upstream="master"/>
+  <project name="ansible-mapr_aws_bootstrap" path="roles/mapr_aws_bootstrap" revision="f17fc09cb64e3f6e268f546a868d93f81b4a5ce9" upstream="master"/>
+  <project name="ansible-mapr_cldb" path="roles/mapr_cldb" revision="210cf66edd0dc7473aa2a2bcba206945a55750b0" upstream="master"/>
+  <project name="ansible-mapr_cldb_startup" path="roles/mapr_cldb_startup" revision="e612b3c08af6c6a6b11f777f19da59e64f074873" upstream="master"/>
+  <project name="ansible-mapr_client" path="roles/mapr_client" revision="3f1af180094b9b39689242592918dd559f0062af" upstream="master"/>
+  <project name="ansible-mapr_cluster_startup" path="roles/mapr_cluster_startup" revision="ce318e4f891cf39306c6f976de2c6ceb6de94ed1" upstream="master"/>
+  <project name="ansible-mapr_configuration" path="roles/mapr_configuration" revision="0910220f6d0f9dbaef2888d2998936ff323fb024" upstream="master"/>
+  <project name="ansible-mapr_debian_prereqs" path="roles/mapr_debian_prereqs" revision="675f9371800015963658289db38dc61f1463427b" upstream="master"/>
+  <project name="ansible-mapr_drill" path="roles/mapr_drill" revision="dd6e58e441ad40a2402a5d350becbef340d53d52" upstream="master"/>
+  <project name="ansible-mapr_drill_test" path="roles/mapr_drill_test" revision="b672b42d09e884d306fd266884fb6104ff3631bd" upstream="master"/>
+  <project name="ansible-mapr_external_packages" path="roles/mapr_external_packages" revision="1d7814464e278902099a0a34a137c7faf52d5128" upstream="master"/>
+  <project name="ansible-mapr_fileserver" path="roles/mapr_fileserver" revision="5d73f235522b50c2d6a5c6d6846ecb39fb3aeed9" upstream="master"/>
+  <project name="ansible-mapr_hbaseindexer" path="roles/mapr_hbaseindexer" revision="1a4ef58d3c05a3400f1fb549716be3e845e177dd" upstream="master"/>
+  <project name="ansible-mapr_hbasemaster" path="roles/mapr_hbasemaster" revision="f8d19777f34a32b4fecd8ac7d78dc44acac1dcfe" upstream="master"/>
+  <project name="ansible-mapr_hbaseregionserver" path="roles/mapr_hbaseregionserver" revision="3f71b20c231beb05284d01133e1f41e13f3a0602" upstream="master"/>
+  <project name="ansible-mapr_historyserver" path="roles/mapr_historyserver" revision="6e330326981bf7d2fd79959e795fefa3429f71d4" upstream="master"/>
+  <project name="ansible-mapr_hive" path="roles/mapr_hive" revision="db34aac7f44f210fbd7e1999527e2b80f593e0f8" upstream="master"/>
+  <project name="ansible-mapr_hive_test" path="roles/mapr_hive_test" revision="15c1a7504c78537f4b675e67e844977ee3d40227" upstream="master"/>
+  <project name="ansible-mapr_httpfs" path="roles/mapr_httpfs" revision="ffa21648bcc6da4cdcb8829ad118a13670f61d61" upstream="master"/>
+  <project name="ansible-mapr_install_playbooks" path="." revision="b14af8db2635f479aea9f4c428eef492f10a780e" upstream="master"/>
+  <project name="ansible-mapr_license" path="roles/mapr_license" revision="66a29754c0047a0509886fe3610384ecf12062f7" upstream="master"/>
+  <project name="ansible-mapr_maprlogin" path="roles/mapr_maprlogin" revision="e86126a54aae5a149aefee791d262dc8f505a0f2" upstream="master"/>
+  <project name="ansible-mapr_maprlogin_service" path="roles/mapr_maprlogin_service" revision="a32c2626d64744b8bca14a2d894fb7a7c5352760" upstream="master"/>
+  <project name="ansible-mapr_nfs" path="roles/mapr_nfs" revision="0f831385d19ec53c13f24106752039bfaf27432b" upstream="master"/>
+  <project name="ansible-mapr_nodemanager" path="roles/mapr_nodemanager" revision="93710088031c42a71e590dea511d77cc46f432d7" upstream="master"/>
+  <project name="ansible-mapr_oozie" path="roles/mapr_oozie" revision="e7d0694584f0f532858589d1445d9549bfbd4631" upstream="master"/>
+  <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb" revision="e7ac7249aa669b225f09919e37d73cca32fb29f0" upstream="master"/>
+  <project name="ansible-mapr_pig" path="roles/mapr_pig" revision="1588d27ff920b3de8b351caabb4e9a2053aea736" upstream="master"/>
+  <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test" revision="cb691af2eae445f92fd39bdfb4fbfd6ed6885360" upstream="master"/>
+  <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test" revision="a3f203f44f9d332da6120b5fecd24a658a26c8ee" upstream="master"/>
+  <project name="ansible-mapr_python" path="roles/mapr_python" revision="b87d7618df6b7f8dec79e5230e004c92a6799e49" upstream="master"/>
+  <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs" revision="1c4cb6ee967c9347f8cd1b80a315f862a6933c43" upstream="master"/>
+  <project name="ansible-mapr_resourcemanager" path="roles/mapr_resourcemanager" revision="fff566655cdbd2877c54bf444956208ac0625c30" upstream="master"/>
+  <project name="ansible-mapr_solr" path="roles/mapr_solr" revision="e638a8993803452cb86ec5810d6623cfb298f3b1" upstream="master"/>
+  <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master" revision="91d5bb5f7ddd5d61a6a8dc5a1ae050be086cbd0e" upstream="master"/>
+  <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave" revision="cd7a2dd5bef45902606e42d610e0da86bf4ed0a4" upstream="master"/>
+  <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector" revision="7518d2a40261d26e4a7495ea31bb05983ce776bd" upstream="master"/>
+  <project name="ansible-mapr_webserver" path="roles/mapr_webserver" revision="f6dffcd426a4b93fcd75c1039d3f7cdd167f25d8" upstream="master"/>
+  <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper" revision="c57d5a8ed661c016ac62b1bebd6dcb89d2f66ac1" upstream="master"/>
+  <project name="ansible-mapr_zookeeper_startup" path="roles/mapr_zookeeper_startup" revision="a3156d8bc273002075a192ffc34f4524b508f7c1" upstream="master"/>
+  <project name="ansible-mysql_server" path="roles/mysql_server" revision="b41423d411f24411508813369519d010f87c3909" upstream="master"/>
+  <project name="ansible-ntp" path="roles/ntp" revision="0c0a4f8ecb419e5ec72fd654ed343bbfcc47e71e" upstream="master"/>
+  <project name="ansible-python_lxml" path="roles/python_lxml" revision="76c6b2d96a2b05da99d10a4b6a651981270afae0" upstream="master"/>
+  <project name="ansible-user_account" path="roles/user_account" revision="94e4d3115ff5d26f13d1730f72f8c520736fe32d" upstream="master"/>
+  <project name="config-encoder-macros" path="templates/encoder" remote="picotrading" revision="624ed05b65743a82bcfdef525176e6cfef5c71ee" upstream="master"/>
+  <project name="mapr-hue" path="roles/mapr_hue" revision="2fa605dc3a187aac33ff2191f2edbd5a149e5503" upstream="master"/>
 </manifest>
