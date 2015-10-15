@@ -54,5 +54,5 @@
   <project name="ansible-user_account" path="roles/user_account"/>
   <project name="config-encoder-macros" path="templates/encoder" remote="picotrading"/>
   <project name="mapr-hue" path="roles/mapr_hue"/>
-  <project name="ansible-mapr_kafka" path="roles/mapr_kafka"/>
+  <project name="mapr-kafka" path="roles/mapr_kafka"/>
 </manifest>
