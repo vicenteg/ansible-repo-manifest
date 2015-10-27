@@ -37,6 +37,7 @@
   <project name="ansible-mapr_opentsdb" path="roles/mapr_opentsdb"/>
   <project name="ansible-mapr_pig" path="roles/mapr_pig"/>
   <project name="ansible-mapr_post_install_test" path="roles/mapr_post_install_test"/>
+  <project name="ansible-mapr_mapreducev1_test" path="roles/mapr_mapreducev1_test"/>
   <project name="ansible-mapr_pre_install_test" path="roles/mapr_pre_install_test"/>
   <project name="ansible-mapr_python" path="roles/mapr_python"/>
   <project name="ansible-mapr_redhat_prereqs" path="roles/mapr_redhat_prereqs"/>
