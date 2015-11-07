@@ -45,6 +45,7 @@
   <project name="ansible-mapr_solr" path="roles/mapr_solr"/>
   <project name="ansible-mapr_spark_master" path="roles/mapr_spark_master"/>
   <project name="ansible-mapr_spark_slave" path="roles/mapr_spark_slave"/>
+  <project name="ansible-mapr_spark_test" path="roles/mapr_spark_test"/>
   <project name="ansible-mapr_tcollector" path="roles/mapr_tcollector"/>
   <project name="ansible-mapr_webserver" path="roles/mapr_webserver"/>
   <project name="ansible-mapr_zookeeper" path="roles/mapr_zookeeper"/>
